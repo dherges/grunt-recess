@@ -1,0 +1,17 @@
+
+Analyzing the following files: test/fixtures/one.less, test/fixtures/two.less
+
+FILE: test/fixtures/one.less
+STATUS: Busted
+FAILURES: 1 failure
+
+Id's should not be styled
+       1. #noId
+
+FILE: test/fixtures/two.less
+STATUS: Busted
+FAILURES: 1 failure
+
+No need to specify units when a value is 0
+       2. padding: 0px;
+

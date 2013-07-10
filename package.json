@@ -1,0 +1,47 @@
+{
+  "name": "grunt-recess",
+  "description": "Grunt plugin for RECESS, Twitter's code quality tool for CSS built on top of LESS.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dherges/grunt-recess",
+  "author": {
+    "name": "David Herges",
+    "email": "david@spektrakel.de",
+    "url": "http://spektrakel.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dherges/grunt-recess.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dherges/grunt-recess/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dherges/grunt-recess/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "recess": "~1",
+    "underscore": "~1.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

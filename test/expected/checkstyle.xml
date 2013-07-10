@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.0.0">
+<file name="/Users/david/Projects/github/grunt-recess/tmp/one.less">
+<error line="1" column="0" severity="error" message="Id&#x27;s should not be styled       1. #noId" source="recess.noIDs"/>
+</file>
+<file name="/Users/david/Projects/github/grunt-recess/tmp/two.less">
+<error line="2" column="0" severity="info" message="No need to specify units when a value is 0       2. padding: 0px;" source="recess.zeroUnits"/>
+</file>
+</checkstyle>

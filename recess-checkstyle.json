@@ -1,0 +1,13 @@
+{
+    "noIDs":                "error"
+  , "noJSPrefix":           "error"
+  , "noOverqualifying":     "info"
+  , "noUnderscores":        "error"
+  , "noUniversalSelectors": "warning"
+  , "Parse":                "error"
+  , "prefixWhitespace":     "ignore"
+  , "propertyNotFound":     "error"
+  , "strictPropertyOrder":  "ignore"
+  , "zeroUnits":            "info"
+  , "defaultError":         "warning"
+}
